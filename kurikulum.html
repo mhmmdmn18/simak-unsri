@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Transkrip Nilai | SIMAK UNSRI</title>
+    <title>Kurikulum | SIMAK UNSRI</title>
 
     <link rel="stylesheet" href="assets/css/main/app.css" />
     <link rel="stylesheet" href="assets/css/main/app-dark.css" />
@@ -205,9 +205,9 @@
             <div class="page-title">
               <div class="row">
                 <div class="col-12 col-lg-6 order-lg-1 order-last">
-                  <h3>Transkrip Nilai</h3>
+                  <h3>Kurikulum</h3>
                   <p class="text-subtitle text-muted">
-                    Lihat transkrip nilai (seluruh semester yang ditempuh)
+                    Daftar dan rincian kurikulum
                   </p>
                 </div>
                 <div class="col-12 col-lg-6 order-lg-2 order-first">
@@ -219,11 +219,8 @@
                       <li class="breadcrumb-item">
                         <a href="index.html">Aplikasi</a>
                       </li>
-                      <li class="breadcrumb-item">
-                        <a href="data-akademik.html">Data Akademik</a>
-                      </li>
                       <li class="breadcrumb-item active" aria-current="page">
-                        Transkrip Nilai
+                        Kurikulum
                       </li>
                     </ol>
                   </nav>
@@ -234,124 +231,191 @@
           <div class="page-content">
             <div class="card">
               <div class="card-header">
-                <h4 class="card-title">Data Mahasiswa</h4>
+                <h4 class="card-title">Kurikulum</h4>
               </div>
               <div class="card-content">
                 <div class="card-body pt-0">
-                  <div class="table-responsive">
-                    <table class="table table-striped">
-                      <tbody>
-                        <tr>
-                          <th>NIM</th>
-                          <td> : </td>
-                          <td>09031282025000</td>
-                        </tr>
-                        <tr>
-                          <th>Nama</th>
-                          <td> : </td>
-                          <td>Universitas Sriwijaya</td>
-                        </tr>
-                        <tr>
-                          <th>Semester</th>
-                          <td> : </td>
-                          <td>5 (T.A. 2022/2023)</td>
-                        </tr>
-                        <tr>
-                          <th>NIP Dosen P.A.</th>
-                          <td> : </td>
-                          <td>0101010101010101</td>
-                        </tr>
-                        <tr>
-                          <th>Dosen P.A.</th>
-                          <td> : </td>
-                          <td>Universitas Sriwijaya</td>
-                        </tr>
-                      </tbody>
-                    </table>
+                  <div class="row mb-2">
+                    <div class="col-md-3">
+                      <div class="input-group mb-3">
+                        <label
+                          class="input-group-text"
+                          for="inputGroupSelect01"
+                          >Fakultas</label
+                        >
+                        <select class="form-select" id="inputGroupSelect01">
+                          <option value="1" selected>Ilmu Komputer</option>
+                          <option value="2">Ilmu Komunikasi</option>
+                          <option value="3">Teknik</option>
+                          <option value="4">Kedokteran</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="input-group mb-3">
+                        <label
+                          class="input-group-text"
+                          for="inputGroupSelect01"
+                          >Program Studi</label
+                        >
+                        <select class="form-select" id="inputGroupSelect01">
+                          <option value="1">Teknik Informatika</option>
+                          <option value="2" selected>Sistem Informasi</option>
+                          <option value="3">Sistem Komputer</option>
+                          <option value="4">Teknik Komputer</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="input-group mb-3">
+                        <label
+                          class="input-group-text"
+                          for="inputGroupSelect01"
+                          >Tahun</label
+                        >
+                        <select class="form-select" id="inputGroupSelect01">
+                          <option value="1" selected>2017</option>
+                          <option value="2">2021</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-md-2">
+                      <a href="#" class="btn btn-primary">Refresh</a>
+                    </div>
                   </div>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header">
-                <h4 class="card-title">Transkrip Nilai</h4>
-              </div>
-              <div class="card-content">
-                <div class="card-body pt-0">
-                  <div class="table-responsive">
-                    <table class="table table-striped">
-                      <thead>
-                        <tr>
-                          <th rowspan="2">No.</th>
-                          <th rowspan="2">Kode</th>
-                          <th rowspan="2">Mata Kuliah</th>
-                          <th rowspan="2">SKS</th>
-                          <th colspan="2" class="text-center">Nilai</th>
-                          <th rowspan="2">Bobot</th>
-                          <th rowspan="2">Riwayat</th>
-                        </tr>
-                        <tr>
-                          <th>Angka</th>
-                          <th>Huruf</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>1</td>
-                          <td>FSI102417</td>
-                          <td>Komputer dan Masyarakat</td>
-                          <td>2</td>
-                          <td>4</td>
-                          <td>A</td>
-                          <td>8</td>
-                          <td>
-                            <a href="#" class="btn btn-primary btn-sm">Lihat</a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>2</td>
-                          <td>FIK003317</td>
-                          <td>Etika Profesi</td>
-                          <td>2</td>
-                          <td>4</td>
-                          <td>A</td>
-                          <td>8</td>
-                          <td>
-                            <a href="#" class="btn btn-primary btn-sm">Lihat</a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>3</td>
-                          <td>FSI101417</td>
-                          <td>Manajemen Keamanan Informasi</td>
-                          <td>3</td>
-                          <td>4</td>
-                          <td>A</td>
-                          <td>12</td>
-                          <td>
-                            <a href="#" class="btn btn-primary btn-sm">Lihat</a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <th colspan="4">JUMLAH MUTU</th>
-                          <td> : </td>
-                          <td colspan="4">399</td>
-                        </tr>
-                        <tr>
-                          <th colspan="4">JUMLAH KREDIT KUMULATIF</th>
-                          <td> : </td>
-                          <td colspan="4">100</td>
-                        </tr>
-                        <tr>
-                          <th colspan="4">IPK</th>
-                          <td> : </td>
-                          <td colspan="4">3.67</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <div class="d-flex justify-content-end">
-                    <a href="#" class="btn btn-secondary">Cetak Transkrip</a>
+                  <div class="row">
+                    <div class="col-12 col-md-6 table-responsive mt-2">
+                      <table class="table table-striped">
+                        <thead>
+                          <span>Semester 1</span>
+                          <tr>
+                            <th>No.</th>
+                            <th>Kode</th>
+                            <th>Mata Kuliah</th>
+                            <th>SKS</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>1</td>
+                            <td>FSI102417</td>
+                            <td><a href="#">Komputer dan Masyarakat</a></td>
+                            <td>2</td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>FIK003317</td>
+                            <td><a href="#">Etika Profesi</a></td>
+                            <td>2</td>
+                          </tr>
+                          <tr>
+                            <td>3</td>
+                            <td>FSI101417</td>
+                            <td><a href="#">Manajemen Keamanan Informasi</a></td>
+                            <td>3</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="col-12 col-md-6 table-responsive mt-2">
+                      <table class="table table-striped">
+                        <thead>
+                          <span>Semester 2</span>
+                          <tr>
+                            <th>No.</th>
+                            <th>Kode</th>
+                            <th>Mata Kuliah</th>
+                            <th>SKS</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>1</td>
+                            <td>FSI102417</td>
+                            <td><a href="#">Komputer dan Masyarakat</a></td>
+                            <td>2</td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>FIK003317</td>
+                            <td><a href="#">Etika Profesi</a></td>
+                            <td>2</td>
+                          </tr>
+                          <tr>
+                            <td>3</td>
+                            <td>FSI101417</td>
+                            <td><a href="#">Manajemen Keamanan Informasi</a></td>
+                            <td>3</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="col-12 col-md-6 table-responsive mt-2">
+                      <table class="table table-striped">
+                        <thead>
+                          <span>Semester 3</span>
+                          <tr>
+                            <th>No.</th>
+                            <th>Kode</th>
+                            <th>Mata Kuliah</th>
+                            <th>SKS</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>1</td>
+                            <td>FSI102417</td>
+                            <td><a href="#">Komputer dan Masyarakat</a></td>
+                            <td>2</td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>FIK003317</td>
+                            <td><a href="#">Etika Profesi</a></td>
+                            <td>2</td>
+                          </tr>
+                          <tr>
+                            <td>3</td>
+                            <td>FSI101417</td>
+                            <td><a href="#">Manajemen Keamanan Informasi</a></td>
+                            <td>3</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="col-12 col-md-6 table-responsive mt-2">
+                      <table class="table table-striped">
+                        <thead>
+                          <span>Semester 4</span>
+                          <tr>
+                            <th>No.</th>
+                            <th>Kode</th>
+                            <th>Mata Kuliah</th>
+                            <th>SKS</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>1</td>
+                            <td>FSI102417</td>
+                            <td><a href="#">Komputer dan Masyarakat</a></td>
+                            <td>2</td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>FIK003317</td>
+                            <td><a href="#">Etika Profesi</a></td>
+                            <td>2</td>
+                          </tr>
+                          <tr>
+                            <td>3</td>
+                            <td>FSI101417</td>
+                            <td><a href="#">Manajemen Keamanan Informasi</a></td>
+                            <td>3</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
                   </div>
                 </div>
               </div>
